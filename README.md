@@ -13,7 +13,7 @@ This tool can be incorporated in to ParaTExt as a check (cms) or as a command li
 
 ParaTExt Biblical Terms information is stored in two files.
 
-1. BiblicalTerms[i]ProjectCode[/i].xml
+1. BiblicalTerms__ProjectCode__.xml
     - This file has the Biblical Terms and it's renderings in the vernacular project.
 1. ProjectBiblicalTerms.xml
     - This file is static across all project (but the content may vary depending on the Biblical Term selected for the project). It has the Biblical Terms and the list of places it occur (this information is stored in a cryptic manner)
@@ -32,7 +32,7 @@ CrossRefTag will combine these files to determine the Biblical Terms entries for
 ## Usage
 
 ```shell
-CrossRefTag -i [input project code] -o [ouput project code] -p [Path to ParaTExt Projects, default is c:\\My ParaTExt Projects] -c [for Cross-References] -r [for Chain References] -m [[a]ll, [b]ook, [c]hapter, [v]erse]
+CrossRefTag\n\t-i [input project code]\n\t-o [ouput project code]\n\t-p [Path to ParaTExt Projects, default is c:\My ParaTExt Projects]\n\t-c [for Cross-References]\n\t-r [for Chain References]\n\t-m [(a)ll, (b)ook, (c)hapter, (v)erse]
 ```
 
-We follow [Hitchhickers guide](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/creation.html#directory-layout) for packaging
+We follow [Hitchhickers guide](http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/creation.html) for packaging
