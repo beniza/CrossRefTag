@@ -7,11 +7,11 @@ This tool can be incorporated in to ParaTExt as a check (cms) or as a command li
 ## Pre-requisites
 
 - ParaTExt 7/8 project (or files from a ParaTExt project)
-- Biblical Terms must be marked
+- [Biblical Terms renderings](https://vimeo.com/channels/paratext/158211470) must be marked
 
 ## How does it work
 
-ParaTExt Biblical Terms information is stored in two files.
+ParaTExt Biblical Terms information is stored in two files. Both of them are stored in the corresponding project folders. They are:
 
 1. BiblicalTerms[PROJECT_CODE].xml
     - This file has the Biblical Terms and it's renderings in the vernacular project.
